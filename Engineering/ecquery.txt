@@ -1,0 +1,732 @@
+/* CREATE TABLE */
+CREATE TABLE IF NOT EXISTS TABLE_NAME(
+  cnum VARCHAR(100), 
+  coursename VARCHAR(100), 
+  url VARCHAR(100), 
+  university VARCHAR(100)
+);
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course61', 'Journey Conversations: Weaving Knowledge and Action', 
+    'https://www.coursera.org/learn/journey-knowledge-action', 
+    'Yale University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course2', 'Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics', 
+    'https://www.coursera.org/learn/audio-engineering', 
+    'University of Rochester'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course55', 'Imagining Other Earths', 
+    'https://www.coursera.org/learn/life-on-other-planets', 
+    'Princeton University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course43', 'Origins-Formation of the Universe, Solar System, Earth and Life', 
+    'https://www.coursera.org/learn/origins-universe-solarsystem', 
+    'University of Copenhagen'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course64', 'Linear Circuits 1: DC Analysis', 
+    'https://www.coursera.org/learn/linear-circuits-dcanalysis', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course60', 'The Effect of Fires on People, Property and the Environment', 
+    'https://www.coursera.org/learn/fire-effect', 
+    'University of Maryland, College Park'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course123', 
+    'Hurricanes: Whats Next? ',' https://www.coursera.org/learn/hurricanes-whats-next ',' University of Michigan ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course19 ',' Capstone Design Project in Power Electronics ',' https://www.coursera.org/learn/power-electronics-capstone ',' University of Colorado Boulder ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course22 ',' Advanced Converter Control Techniques ',' https://www.coursera.org/learn/current-control ',' University of Colorado Boulder ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course77 ',' Introduction to Satellite Communications ',' https://www.coursera.org/learn/satellite-communications ',' Institut Mines ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course29 ',' Fundamentals of GIS ',' https://www.coursera.org/learn/gis ',' University of California, 
+    Davis ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course53 ',' The Science of the Solar System ',' https://www.coursera.org/learn/solar-system ',' Caltech ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course46 ',' Fundamentals of Fluid Power ',' https://www.coursera.org/learn/fluid-power ',' University of Minnesota ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course80 ',' Disaster Preparedness ',' https://www.coursera.org/learn/disaster-preparedness ',' University of Pittsburgh ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course5 ',' Magnetics for Power Electronic Converters ',' https://www.coursera.org/learn/electronic-converters ',' University of Colorado Boulder ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course79 ',' Global Environmental Management ',' https://www.coursera.org/learn/global-environmental-management ',' Technical University of Denmark (DTU) ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course70 ',' Sustainable Agricultural Land Management ',' https://www.coursera.org/learn/sustainable-agriculture ',' University of Florida ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course51 ',' General Chemistry : Concept Development 
+    and Application ',' https://www.coursera.org/learn/general-chemistry ',' Rice University ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course84 ',' Greening the Economy : Sustainable Cities ',' https://www.coursera.org/learn/gte-sustainable-cities ',' Lund University ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course18 ',' Material Behavior ',' https://www.coursera.org/learn/material-behavior ',' Georgia Institute of Technology ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course25 ',' Introduction to Molecular Spectroscopy ',' https://www.coursera.org/learn/spectroscopy ',' University of Manchester ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course50 ',' The Changing Global Order ',' https://www.coursera.org/learn/changing-global-order ',' Universiteit Leiden ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course58 ',' Internet of Things : Sensing 
+    and Actuation 
+    From 
+      Devices ',' https://www.coursera.org/learn/internet-of-things-sensing-actuation ',' University of California, 
+      San Diego ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course13 ',' Securing Digital Democracy ',' https://www.coursera.org/learn/digital-democracy ',' University of Michigan ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course71 ',' Emergent Phenomena in Science 
+      and Everyday Life ',' https://www.coursera.org/learn/emergent-phenomena ',' University of California, 
+      Irvine ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course10 ',' Getting started in cryo-EM ',' https://www.coursera.org/learn/cryo-em ',' Caltech ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course21 ',' Converter Control ',' https://www.coursera.org/learn/converter-control ',' University of Colorado Boulder ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course110 ',' Operational Finance : Finance for Managers ',' https://www.coursera.org/learn/operational-finance ',' IESE Business School ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course93 ',' Internet of Things : Multimedia Technologies ',' https://www.coursera.org/learn/internet-of-things-multimedia ',' University of California, 
+      San Diego ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course99 ',' Cybersecurity 
+      and the Internet of Things ',' https://www.coursera.org/learn/iot-cyber-security ',' University System of Georgia ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course8 ',' Digital Systems : 
+    From 
+      Logic Gates to Processors ',' https://www.coursera.org/learn/digital-systems ',' Universitat Aut noma de Barcelona ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course78 ',' 
+    From 
+      the Big Bang to Dark Energy ',' https://www.coursera.org/learn/big-bang ',' The University of Tokyo ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course62 ',' Stanford Introduction to Food 
+      and Health ',' https://www.coursera.org/learn/food-
+      and-health ',' Stanford University ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course120 ',' Robotics : Capstone ',' https://www.coursera.org/learn/robotics-capstone ',' University of Pennsylvania ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course91 ',' Intro to Digital Manufacturing with Autodesk Fusion 360 ',' https://www.coursera.org/learn/introduction-digital-manufacturing-fusion-360 ',' Autodesk ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course48 ',' Chemistry ',' https://www.coursera.org/learn/chemistry-1 ',' University of Kentucky ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course56 ',' Oceanography : a key to better understand our world ',' https://www.coursera.org/learn/oceanography ',' Universitat de Barcelona, 
+      Fundaci Navegaci Ocenica Barcelona ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course112 ',' The Arduino Platform 
+      and C Programming ',' https://www.coursera.org/learn/arduino-platform ',' University of California, 
+      Irvine ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course100 ',' Quantitative Methods ',' https://www.coursera.org/learn/quantitative-methods ',' University of Amsterdam ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course63 ',' Wind Energy ',' https://www.coursera.org/learn/wind-energy ',' Technical University of Denmark (DTU) ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course57 ',' A Circular Economy of Metals : Towards a Sustainable Societal Metabolism ',' https://www.coursera.org/learn/circular-economy-metals ',' Universiteit Leiden ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course76 ',' Disaster Preparedness ',' https://www.coursera.org/learn/disaster-preparedness ',' University of Pittsburgh ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course89 ',' Our Energy Future ',' https://www.coursera.org/learn/future-of-energy ',' University of California, 
+      San Diego ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course17 ',' Advanced Converter Control Techniques ',' https://www.coursera.org/learn/current-control ',' University of Colorado Boulder ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course11 ',' Introduction to FPGA Design for Embedded Systems ',' https://www.coursera.org/learn/intro-fpga-design-embedded-systems ',' University of Colorado Boulder ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course24 ',' Getting started in cryo-EM ',' https://www.coursera.org/learn/cryo-em ',' Caltech ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,url,university) VALUES( ' course95 ',' Homeland Security & Cybersecurity Connection-Its Not About the Terrorists', 
+      'https://www.coursera.org/learn/homeland-security-cybersecurity-connection', 
+      'University of Colorado System'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course67', 'Organic Solar Cells-Theory and Practice', 
+    'https://www.coursera.org/learn/solar-cell', 
+    'Technical University of Denmark (DTU)'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course40', 'Introduction to Chemistry:  Reactions and Ratios', 
+    'https://www.coursera.org/learn/intro-chemistry', 
+    'Duke University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course69', 'Sustainability of Social-Ecological Systems: the Nexus between Water, Energy and Food', 
+    'https://www.coursera.org/learn/sustainability-social-ecological-systems', 
+    'Universitat Aut noma de Barcelona'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course6', 'eHealth: More than just an electronic record', 
+    'https://www.coursera.org/learn/ehealth', 
+    'The University of Sydney'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course7', 'Creating Synthesizer Sounds for Electronic Music (Project-Centered Course)', 
+    'https://www.coursera.org/learn/music-synthesizer', 
+    'Berklee College of Music'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course109', 'Internet of Things Capstone: Build a Mobile Surveillance System', 
+    'https://www.coursera.org/learn/internet-of-things-capstone', 
+    'University of California, San Diego'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course23', 'Securing Digital Democracy', 
+    'https://www.coursera.org/learn/digital-democracy', 
+    'University of Michigan'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course81', 'Digital Thread: Implementation', 
+    'https://www.coursera.org/learn/digital-thread-implementation', 
+    'University at Buffalo, The State University of New York'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course35', 'Introduction to Indoor Air Quality', 
+    'https://www.coursera.org/learn/intro-indoor-air-quality', 
+    'The Hong Kong University of Science and Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course12', 'Linear Circuits 2: AC Analysis ', 
+    'https://www.coursera.org/learn/linear-circuits-ac-analysis', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course59', 'Planet Earth...and You!', 
+    'https://www.coursera.org/learn/planet-earth', 
+    'University of Illinois at Urbana-Champaign'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course108', '3D Model Creation with Autodesk Fusion 360', 
+    'https://www.coursera.org/learn/3d-model-creation-fusion-360', 
+    'Autodesk'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course72', 'Digital Manufacturing Commons (opendmc.org)', 
+    'https://www.coursera.org/learn/digital-manufacturing-commons', 
+    'University at Buffalo, The State University of New York'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course54', 'Statistical Molecular Thermodynamics', 
+    'https://www.coursera.org/learn/statistical-thermodynamics', 
+    'University of Minnesota'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course117', 'Simulation and modeling of natural processes', 
+    'https://www.coursera.org/learn/modeling-simulation-natural-processes', 
+    'University of Geneva'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course47', 'Introduction to solar cells', 
+    'https://www.coursera.org/learn/solar-cells', 
+    'Technical University of Denmark (DTU)'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course16', 'Introduction to Complex Analysis', 
+    'https://www.coursera.org/learn/complex-analysis', 
+    'Wesleyan University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course68', 'Greening the Economy: Lessons from Scandinavia', 
+    'https://www.coursera.org/learn/greening-the-economy', 
+    'Lund University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course101', 'Introduction to Systems Engineering', 
+    'https://www.coursera.org/learn/systems-engineering', 
+    'UNSW Australia (The University of New South Wales)'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course3', 'Plastic electronics', 
+    'https://www.coursera.org/learn/plastic-electronics', 
+    'cole Polytechnique'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course102', 'Municipal Solid Waste Management in Developing Countries', 
+    'https://www.coursera.org/learn/solid-waste-management', 
+    'cole Polytechnique Fdrale de Lausanne'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course111', 'Electric Utilities Fundamentals and Future', 
+    'https://www.coursera.org/learn/electric-utilities', 
+    'University of Colorado System'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course113', 'Prototyping and Design', 
+    'https://www.coursera.org/learn/prototyping-design', 
+    'University of Minnesota'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course90', 'Quantum Optics 1 : Single Photons', 
+    'https://www.coursera.org/learn/quantum-optics-single-photon', 
+    'cole Polytechnique'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course104', 'Electric Industry Operations and Markets', 
+    'https://www.coursera.org/learn/electricity', 
+    'Duke University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course41', 'Astrobiology and the Search for Extraterrestrial Life', 
+    'https://www.coursera.org/learn/astrobiology', 
+    'The University of Edinburgh'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course42', 'Analyzing the Universe', 
+    'https://www.coursera.org/learn/analyze', 
+    'Rutgers the State University of New Jersey'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course1', 'Introduction to Electronics', 
+    'https://www.coursera.org/learn/electronics', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course86', 'Mechanics of Materials I: Fundamentals of Stress & Strain and Axial Loading', 
+    'https://www.coursera.org/learn/mechanics-1', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course14', 'Converter Circuits', 
+    'https://www.coursera.org/learn/converter-circuits', 
+    'University of Colorado Boulder'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course119', 'Strategy and Sustainability', 
+    'https://www.coursera.org/learn/strategy-sustainability', 
+    'IESE Business School'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course92', 'Requirements Writing', 
+    'https://www.coursera.org/learn/requirements-writing', 
+    'UNSW Australia (The University of New South Wales)'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course96', 'MBSE: Model-Based Systems Engineering ', 
+    'https://www.coursera.org/learn/mbse', 
+    'University at Buffalo, The State University of New York'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course65', 'Astronomy: Exploring Time and Space', 
+    'https://www.coursera.org/learn/astro', 
+    'University of Arizona'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course37', 'Basics of Extracellular Vesicles', 
+    'https://www.coursera.org/learn/extracellular-vesicles', 
+    'University of California, Irvine'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course44', 'Natural Attenuation of Groundwater Contaminants: New Paradigms, Technologies, and Applications', 
+    'https://www.coursera.org/learn/natural-attenuation-of-groundwater-contaminants', 
+    'Rice University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course49', 'Nanotechnology and Nanosensors, Part 2', 
+    'https://www.coursera.org/learn/nanotechnology2', 
+    'Technion-Israel Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course107', 'Internet of Things: Setting Up Your DragonBoard Development Platform', 
+    'https://www.coursera.org/learn/internet-of-things-dragonboard', 
+    'University of California, San Diego'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course45', 'Statistical Thermodynamics: Molecules to Machines', 
+    'https://www.coursera.org/learn/statistical-thermodynamics-cm', 
+    'Carnegie Mellon University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course97', 'Advanced Manufacturing Enterprise', 
+    'https://www.coursera.org/learn/advanced-manufacturing-enterprise', 
+    'University at Buffalo, The State University of New York'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course106', 'Smartphone Emerging Technologies', 
+    'https://www.coursera.org/learn/smartphone-emerging-technologies', 
+    'Yonsei University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course87', 'Fundamentals of Engineering Exam Review', 
+    'https://www.coursera.org/learn/fe-exam', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course4', 'Introduction to Power Electronics', 
+    'https://www.coursera.org/learn/power-electronics', 
+    'University of Colorado Boulder'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course52', 'Mechanics: Motion, Forces, Energy and Gravity, from Particles to Planets', 
+    'https://www.coursera.org/learn/mechanics-particles-planets', 
+    'UNSW Australia (The University of New South Wales)'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course103', 'Interfacing with the Raspberry Pi', 
+    'https://www.coursera.org/learn/raspberry-pi-interface', 
+    'University of California, Irvine'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course33', 'On Being a Scientist', 
+    'https://www.coursera.org/learn/scientist', 
+    'Universiteit Leiden'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course74', 'Global Environmental Management', 
+    'https://www.coursera.org/learn/global-environmental-management', 
+    'Technical University of Denmark (DTU)'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course118', 'Operations Management', 
+    'https://www.coursera.org/learn/operations-management', 
+    'University of Illinois at Urbana-Champaign'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course94', 'Materials Data Sciences and Informatics', 
+    'https://www.coursera.org/learn/material-informatics', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course66', 'Introduction to Thermodynamics: Transferring Energy from Here to There', 
+    'https://www.coursera.org/learn/thermodynamics-intro', 
+    'University of Michigan'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course114', 'Value Chain Management Capstone', 
+    'https://www.coursera.org/learn/value-chain-capstone', 
+    'University of Illinois at Urbana-Champaign'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course116', 'Fundamentals of Digital Image and Video Processing', 
+    'https://www.coursera.org/learn/digital', 
+    'Northwestern University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course85', 'The Age of Sustainable Development', 
+    'https://www.coursera.org/learn/sustainable-development', 
+    'Columbia University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course36', 'Health Informatics on FHIR', 
+    'https://www.coursera.org/learn/fhir', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course28', 'Material Behavior', 
+    'https://www.coursera.org/learn/material-behavior', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course9', 'Nanotechnology: A Makers Course', 
+    'https://www.coursera.org/learn/nanotechnology', 
+    'Duke University, North Carolina State University, The University of North Carolina at Chapel Hill'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course88', 'Materials Science: 10 Things Every Engineer Should Know', 
+    'https://www.coursera.org/learn/materials-science', 
+    'University of California, Davis'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course75', 'Wireless Communications for Everybody', 
+    'https://www.coursera.org/learn/wireless-communications', 
+    'Yonsei University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course34', 'AstroTech: The Science and Technology behind Astronomical Discovery', 
+    'https://www.coursera.org/learn/astronomy-technology', 
+    'The University of Edinburgh'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course39', 'Understanding Russians: Contexts of Intercultural Communication', 
+    'https://www.coursera.org/learn/intercultural-communication-russians', 
+    'National Research University Higher School of Economics'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course38', 'Energy, Environment, and Everyday Life', 
+    'https://www.coursera.org/learn/energy-environment-life', 
+    'University of Illinois at Urbana-Champaign'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course31', 'Survey of Music Technology', 
+    'https://www.coursera.org/learn/music-technology', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course27', 'Internet of Things: How did we get here?', 
+    'https://www.coursera.org/learn/internet-of-things-history', 
+    'University of California, San Diego'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course30', 'Nanotechnology: A Makers Course', 
+    'https://www.coursera.org/learn/nanotechnology', 
+    'Duke University, North Carolina State University, The University of North Carolina at Chapel Hill'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course115', 'Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)', 
+    'https://www.coursera.org/learn/build-a-computer', 
+    'Hebrew University of Jerusalem'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course15', 'Introduction to Molecular Spectroscopy', 
+    'https://www.coursera.org/learn/spectroscopy', 
+    'University of Manchester   '
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course83', 'English Composition I', 
+    'https://www.coursera.org/learn/english-composition', 
+    'Duke University'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course105', 'Digital Manufacturing & Design', 
+    'https://www.coursera.org/learn/digital-manufacturing-design', 
+    'University at Buffalo, The State University of New York'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course32', 'Industrial Organization: Strategy and Competition in Business', 
+    'https://www.coursera.org/learn/industrial-organization', 
+    'National Research University Higher School of Economics'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course122', 'Digital Signal Processing', 
+    'https://www.coursera.org/learn/dsp', 
+    'cole Polytechnique Fdrale de Lausanne'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course73', 'From the Big Bang to Dark Energy', 
+    'https://www.coursera.org/learn/big-bang', 
+    'The University of Tokyo'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course98', 'Write Professional Emails in English', 
+    'https://www.coursera.org/learn/professional-emails-english', 
+    'Georgia Institute of Technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course82', 'Interfacing with the Arduino', 
+    'https://www.coursera.org/learn/interface-with-arduino', 
+    'University of California, Irvine'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course20', 'Converter Circuits', 
+    'https://www.coursera.org/learn/converter-circuits', 
+    'University of Colorado Boulder'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course121', 'Programming for the Internet of Things Project', 
+    'https://www.coursera.org/learn/internet-of-things-project', 
+    'University of California, Irvine'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, url, university) 
+VALUES 
+  (
+    'course26', 'Introduction to Complex Analysis', 
+    'https://www.coursera.org/learn/complex-analysis', 
+    'Wesleyan University'
+  );

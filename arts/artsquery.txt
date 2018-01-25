@@ -1,0 +1,979 @@
+/* CREATE TABLE */
+CREATE TABLE IF NOT EXISTS TABLE_NAME(
+  cnum VARCHAR(100), 
+  university VARCHAR(100), 
+  coursename VARCHAR(100), 
+  url VARCHAR(100)
+);
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course106', 'Michigan State University', 
+    'Gathering and Developing the News', 
+    'https://www.coursera.org/learn/gathering-the-news'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course50', 'Google Daydream Impact', 
+    'VR & 360 Video Production', 'https://www.coursera.org/learn/360-vr-video-production'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course104', 'Berklee College of Music', 
+    'Improvisacib3n de jazz ', 'https://www.coursera.org/learn/improvisacion-de-jazz'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course28', 'California Institute of the Arts', 
+    'Introduction to Typography', 'https://www.coursera.org/learn/typography'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course108', 'Michigan State University', 
+    'Effectively delivering the news to your audience', 
+    'https://www.coursera.org/learn/deliver-the-news'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course36', 'Berklee College of Music', 
+    'Introduction to Ableton Live', 
+    'https://www.coursera.org/learn/ableton-live'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course10', 'The University of Edinburgh', 
+    'Fundamentals of Music Theory', 
+    'https://www.coursera.org/learn/edinburgh-music-theory'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course77', 'Universiteit Leiden, University of the Arts The Hague', 
+    'Music & Society', 'https://www.coursera.org/learn/music-society'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course95', 'Northwestern University', 
+    'Teaching the Violin and Viola: Creating a Healthy Foundation', 
+    'https://www.coursera.org/learn/teach-violin-lessons'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course96', 'West Virginia University', 
+    'Todays Music Industry', 'https://www.coursera.org/learn/music-industry'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course111', 
+    'University of Florida', 
+    'Musics Big Bang The Genesis of Rock n Roll',' https://www.coursera.org/learn/rock-
+    and-roll-music ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course23 ',' Curtis Institute of Music ',' Exploring Beethovens Piano Sonatas Part 3', 
+    'https://www.coursera.org/learn/exploring-beethoven-piano-sonatas-3'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course32', 'Berklee College of Music', 
+    'Jazz Improvisation', 'https://www.coursera.org/learn/jazz-improvisation'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course24', 'Michigan State University', 
+    'Script Writing: Write a Pilot Episode for a TV or Web Series (Project-Centered Course)', 
+    'https://www.coursera.org/learn/script-writing'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course113', 'Berklee College of Music', 
+    'A tecnologia da produo musical ', 
+    'https://www.coursera.org/learn/tecnologia-producao-musical'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course17', 'The Museum of Modern Art', 
+    'In the Studio: Postwar Abstract Painting', 
+    'https://www.coursera.org/learn/painting'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course22', 'Michigan State University', 
+    'Getting Started With Music Theory', 
+    'https://www.coursera.org/learn/music-theory'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course92', 'University of Rochester', 
+    'History of Rock, Part Two', 'https://www.coursera.org/learn/history-of-rock-2'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course79', 'Berklee College of Music', 
+    'Pro Tools Basics', 'https://www.coursera.org/learn/protools'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course33', 'UNSW Australia (The University of New South Wales)', 
+    'Transmedia Storytelling: Narrative worlds, emerging technologies, and global audiences', 
+    'https://www.coursera.org/learn/transmedia-storytelling'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course123', 'California Institute of the Arts', 
+    'Game Design Document: Define the Art & Concepts', 
+    'https://www.coursera.org/learn/game-design-document'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course11', 'The Museum of Modern Art', 
+    'Fashion as Design', 'https://www.coursera.org/learn/fashion-design'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course99', 'Duke University, Creative Time ', 
+    'ART of the MOOC: Public Art and Pedagogy', 
+    'https://www.coursera.org/learn/public-art-pedagogy'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course124', 'Michigan State University', 
+    'Capstone: Create your own professional journalistic portfolio', 
+    'https://www.coursera.org/learn/become-a-journalist-capstone'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course73', 'Erasmus University Rotterdam', 
+    'Serious Gaming', 'https://www.coursera.org/learn/serious-gaming'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course12', 'California Institute of the Arts', 
+    'Fundamentals of Graphic Design', 
+    'https://www.coursera.org/learn/fundamentals-of-graphic-design'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course37', 'California Institute of the Arts', 
+    'Introduction to Imagemaking', 
+    'https://www.coursera.org/learn/image-making'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course53', 'Curtis Institute of Music', 
+    'Exploring Beethovens Piano Sonatas', 
+    'https://www.coursera.org/learn/beethoven-piano-sonatas'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course85', 'Yale University', 'Music and Social Action', 
+    'https://www.coursera.org/learn/music-and-social-action'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course64', 'Nanjing University', 
+    'Chinese Culture and Contemporary China ', 
+    'https://www.coursera.org/learn/china-culture-contemporary'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course35', 'IE Business School, IE School of Architecture & Design', 
+    'Making Architecture', 'https://www.coursera.org/learn/making-architecture'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course76', 'Vanderbilt University', 
+    'Understanding the Music Business: What is Music Worth?', 
+    'https://www.coursera.org/learn/musicbiz'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course116', 'Berklee College of Music', 
+    'Desenvolvendo sua musicalidade', 
+    'https://www.coursera.org/learn/desenvolvendo-musicalidade'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course86', 'University of Illinois at Urbana-Champaign', 
+    'Modern American Poetry', 'https://www.coursera.org/learn/modern-american-poetry'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course63', 'Michigan State University', 
+    'Photography Techniques: Light, Content, and Sharing', 
+    'https://www.coursera.org/learn/photography-techniques'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course75', 'University of Maryland, College Park', 
+    'The Cycle: Management of Successful Arts and Cultural Organizations', 
+    'https://www.coursera.org/learn/the-cycle'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course41', 'IE Business School', 
+    'From Brand to Image: Creating High Impact Campaigns That Tell Brand Stories', 
+    'https://www.coursera.org/learn/brand-image-high-impact-campaign'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course58', 'The University of Melbourne', 
+    'Sexing the Canvas: Art and Gender', 
+    'https://www.coursera.org/learn/gender-art'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course122', 'Wesleyan University', 
+    'Capstone: Your Story', 'https://www.coursera.org/learn/story-writing-project'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course1', 'California Institute of the Arts', 
+    'Graphic Design', 'https://www.coursera.org/specializations/graphic-design'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course90', 'Universitat de Barcelona', 
+    'The Mediterranean, a Space of Exchange (from the Renaissance to Enlightenment)', 
+    'https://www.coursera.org/learn/mediterraneanhistory'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course45', 'Universitat Pompeu Fabra of Barcelona, Stanford University', 
+    'Audio Signal Processing for Music Applications', 
+    'https://www.coursera.org/learn/audio-signal-processing'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course125', 'Berklee College of Music', 
+    'Music Production Capstone', 'https://www.coursera.org/learn/music-production-capstone'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course56', 'Berklee College of Music', 
+    'Navigate the Music Industry as an Independent Artist', 
+    'https://www.coursera.org/learn/navigate-music-industry-independent-artist'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course52', 'Berklee College of Music', 
+    'Creating Synthesizer Sounds for Electronic Music (Project-Centered Course)', 
+    'https://www.coursera.org/learn/music-synthesizer'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course74', 'California Institute of the Arts', 
+    'Character Design for Video Games', 
+    'https://www.coursera.org/learn/game-character-design'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course126', 'Berklee College of Music', 
+    'Developing Your Musicianship: Final Project', 
+    'https://www.coursera.org/learn/musicianship-final-project'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course68', 'University of California, Irvine', 
+    'Introduction to Research for Essay Writing', 
+    'https://www.coursera.org/learn/introduction-to-research-for-essay-writing'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course54', 'Berklee College of Music', 
+    'The Technology of Music Production', 
+    'https://www.coursera.org/learn/technology-of-music-production'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course70', 'University of Colorado System', 
+    'Deciphering Secrets: The Illuminated Manuscripts of Medieval Europe', 
+    'https://www.coursera.org/learn/medieval-europe'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course66', 'Duke University, Creative Time ', 
+    'ART of the MOOC: Activism and Social Movements', 
+    'https://www.coursera.org/learn/activism-social-movements'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course14', 'Wesleyan University', 
+    'Creative Writing: The Craft of Plot', 
+    'https://www.coursera.org/learn/craft-of-plot'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course42', 'California Institute of the Arts', 
+    'Introduction to Game Design', 
+    'https://www.coursera.org/learn/game-design'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course48', 'University of Rochester', 
+    'History of Rock, Part One', 'https://www.coursera.org/learn/history-of-rock'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course29', 'Berklee College of Music', 
+    'The Art of Music Production', 
+    'https://www.coursera.org/learn/producing-music'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course25', 'Duke University', 'Music as Biology: What We Like to Hear and Why', 
+    'https://www.coursera.org/learn/music-as-biology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course46', 'Wesleyan University', 
+    'Creative Writing: The Craft of Setting and Description', 
+    'https://www.coursera.org/learn/craft-of-setting-and-description'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course55', 'National University of Singapore', 
+    'Write Like Mozart: An Introduction to Classical Music Composition', 
+    'https://www.coursera.org/learn/classical-composition'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course84', 'Vanderbilt University', 
+    'Online Games: Literature, New Media, and Narrative', 
+    'https://www.coursera.org/learn/interactive-media-gaming'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course51', 'University of Pennsylvania', 
+    'Designing Cities', 'https://www.coursera.org/learn/designing-cities'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course127', 'Berklee College of Music, Banco Interamericano de Desarrollo', 
+    'Proyecto final de Msico moderno', 
+    'https://www.coursera.org/learn/proyecto-musico'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course62', 'Berklee College of Music', 
+    'Musicianship: Chord Charts, Diatonic Chords, and Minor Keys', 
+    'https://www.coursera.org/learn/musicianship-chords'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course110', 'The Chinese University of Hong Kong', 
+    'The Beauty of Kunqu Opera', 'https://www.coursera.org/learn/kunqu-opera'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course27', 'California Institute of the Arts', 
+    'Sharpened Visions: A Poetry Workshop', 
+    'https://www.coursera.org/learn/poetry-workshop'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course5', 'Berklee College of Music', 
+    'Music Production', 'https://www.coursera.org/specializations/music-production'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course97', 'The University of North Carolina at Chapel Hill', 
+    'Fundamentals of Rehearsing Music Ensembles', 
+    'https://www.coursera.org/learn/music-ensembles'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course102', 'Ludwig-Maximilians-Universitt Mbcnchen (LMU)', 
+    'Theatre and Globalization', 'https://www.coursera.org/learn/global-theatre'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course89', 'Curtis Institute of Music', 
+    'The World of the String Quartet', 
+    'https://www.coursera.org/learn/string-quartet'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course9', 'The Museum of Modern Art', 
+    'Modern Art & Ideas', 'https://www.coursera.org/learn/modern-art-ideas'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course119', 'Berklee College of Music', 
+    'Produo final do msico moderno', 
+    'https://www.coursera.org/learn/producao-musico-moderno'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course59', 'The University of Tokyo', 
+    'Words Spun Out of Images: Visual and Literary Culture in Nineteenth Century Japan', 
+    'https://www.coursera.org/learn/visual-literary-culture-in-japan'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course8', 'Berklee College of Music, Banco Interamericano de Desarrollo', 
+    'El Msico Moderno', 'https://www.coursera.org/specializations/musico-moderno'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course39', 'The Museum of Modern Art', 
+    'Art & Activity: Interactive Strategies for Engaging with Art', 
+    'https://www.coursera.org/learn/art-activity'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course26', 'University of California, Irvine', 
+    'Getting Started with Essay Writing', 
+    'https://www.coursera.org/learn/getting-started-with-essay-writing'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course121', 'Michigan State University', 
+    'Photography Capstone Project', 
+    'https://www.coursera.org/learn/photography-project'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course129', 'The University of Melbourne', 
+    'How Music Can Change Your Life', 
+    'https://www.coursera.org/learn/music-life'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course98', 'The University of North Carolina at Chapel Hill', 
+    'The American South: Its Stories, Music, and Art', 
+    'https://www.coursera.org/learn/the-south'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course38', 'University of Rochester', 
+    'Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics', 
+    'https://www.coursera.org/learn/audio-engineering'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course40', 'Wesleyan University', 
+    'Creative Writing: The Craft of Style', 
+    'https://www.coursera.org/learn/craft-of-style'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course30', 'Berklee College of Music', 
+    'Developing Your Musicianship', 
+    'https://www.coursera.org/learn/develop-your-musicianship'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course44', 'High Tech High Graduate School of Education', 
+    'How to Make a Comic Book (Project-Centered Course)', 
+    'https://www.coursera.org/learn/make-comic-books'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course2', 'Wesleyan University', 
+    'Creative Writing', 'https://www.coursera.org/specializations/creative-writing'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course117', 'California Institute of the Arts', 
+    'Brand New Brand', 'https://www.coursera.org/learn/brand-new-brand'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course13', 'Universiteit Leiden, Meertens instituut (KNAW)', 
+    'Miracles of Human Language: An Introduction to Linguistics', 
+    'https://www.coursera.org/learn/human-language'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course114', 'Duke University, Creative Time ', 
+    'ART of the MOOC: Arte Pblico y Pedagogada ', 
+    'https://www.coursera.org/learn/arte-publico-pedagogia'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course128', 'University of Pennsylvania', 
+    'Modern & Contemporary American Poetry (9cModPo9d)', 
+    'https://www.coursera.org/learn/modpo'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course87', 'The Chinese University of Hong Kong', 
+    'Classics of Chinese Humanities: Guided Readings', 
+    'https://www.coursera.org/learn/classics-chinese-humanities'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course31', 'Berklee College of Music, Banco Interamericano de Desarrollo', 
+    'Introduccib3n a la guitarra', 
+    'https://www.coursera.org/learn/guitarra'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course118', 'Berklee College of Music', 
+    'Introduo a0 Guitarra', 'https://www.coursera.org/learn/intro-guitarra'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course91', 'California Institute of the Arts', 
+    'World Design for Video Games', 
+    'https://www.coursera.org/learn/video-game-world'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course61', 'Berklee College of Music', 
+    'Music Business Foundations', 'https://www.coursera.org/learn/music-business-foundations'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course69', 'Berklee College of Music', 
+    'Musicianship: Tensions, Harmonic Function, and Modal Interchange', 
+    'https://www.coursera.org/learn/musicianship-harmony'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course103', 'Berklee College of Music, Banco Interamericano de Desarrollo', 
+    'Introduccib3n a la produccib3n de msica', 
+    'https://www.coursera.org/learn/produccion-musical'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course82', 'California Institute of the Arts', 
+    'Story and Narrative Development for Video Games', 
+    'https://www.coursera.org/learn/video-game-story'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course107', 'University of Rochester', 
+    'The Music of the Rolling Stones, 1962-1974', 
+    'https://www.coursera.org/learn/rolling-stones'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course20', 'The Museum of Modern Art', 
+    'Seeing Through Photographs', 'https://www.coursera.org/learn/photography'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course83', 'Georgia Institute of Technology', 
+    'Survey of Music Technology', 'https://www.coursera.org/learn/music-technology'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course71', 'University of Rochester', 
+    'The Music of the Beatles', 'https://www.coursera.org/learn/the-beatles'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course101', 'Berklee College of Music, Banco Interamericano de Desarrollo', 
+    'Composicib3n de canciones', 'https://www.coursera.org/learn/composicion-canciones'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course18', 'Michigan State University', 
+    'Design and Make Infographics (Project-Centered Course)', 
+    'https://www.coursera.org/learn/infographic-design'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course94', 'Berklee College of Music, Banco Interamericano de Desarrollo', 
+    'Desarrollando tu musicalidad', 
+    'https://www.coursera.org/learn/desarrollo-musicalidad'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course100', 'Michigan State University', 
+    'Journalism, the future, and you!', 
+    'https://www.coursera.org/learn/international-journalism'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course78', 'Michigan State University', 
+    'What is news? ', 'https://www.coursera.org/learn/what-is-news'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course16', 'Yale University', 'Introduction to Classical Music', 
+    'https://www.coursera.org/learn/introclassicalmusic'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course115', 'Berklee College of Music', 
+    'Composio: Escrevendo a letra', 
+    'https://www.coursera.org/learn/composicao-escrevendo-letra'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course72', 'Universidad de los Andes', 
+    'Leer a Macondo: la obra de Gabriel Garcada Ma1rquez', 
+    'https://www.coursera.org/learn/macondo-gabriel-garcia-marquez'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course3', 'Michigan State University', 
+    'Photography Basics and Beyond: From Smartphone to DSLR', 
+    'https://www.coursera.org/specializations/photography-basics'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course112', 'The University of Sydney', 
+    'The Place of Music in 21st Century Education', 
+    'https://www.coursera.org/learn/music-education'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course7', 'Michigan State University', 
+    'Become a Journalist: Report the News!', 
+    'https://www.coursera.org/specializations/become-a-journalist'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course49', 'Michigan State University', 
+    'Camera Control', 'https://www.coursera.org/learn/camera-control'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course57', 'University of Virginia', 
+    'Plagues, Witches, and War: The Worlds of Historical Fiction', 
+    'https://www.coursera.org/learn/historical-fiction'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course80', 'University of Copenhagen', 
+    'Scandinavian Film and Television', 
+    'https://www.coursera.org/learn/scandinavian-movies-tv'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course88', 'Vanderbilt University, National Arts Strategies', 
+    'Leading Innovation in Arts and Culture', 
+    'https://www.coursera.org/learn/arts-culture-innovation'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course109', 
+    'Sapienza University of Rome', 
+    'Recovering the Humankinds Past 
+    and Saving the Universal Heritage ',' https://www.coursera.org/learn/preserving-cultural-heritage ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course93 ',' University of London, 
+    Goldsmiths, 
+    University of London ',' Creative Programming for Digital Media & Mobile Apps ',' https://www.coursera.org/learn/digitalmedia ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course120 ',' Berklee College of Music ',' Improvisao no Jazz ',' https://www.coursera.org/learn/improvisacao-no-jazz ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course4 ',' Berklee College of Music ',' Developing Your Musicianship ',' https://www.coursera.org/specializations/musicianship-specialization ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course67 ',' University of Rochester ',' The Blues : Understanding 
+    and Performing an American Art Form ',' https://www.coursera.org/learn/the-blues ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course47 ',' Michigan State University ',' Principles of Photo Composition 
+    and Digital Image Post-Production ',' https://www.coursera.org/learn/photo-composition ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course43 ',' Berklee College of Music ',' The Art of Vocal Production ',' https://www.coursera.org/learn/vocal-production ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course65 ',' The Museum of Modern Art ',' Art & Ideas : Teaching with Themes ',' https://www.coursera.org/learn/ideas ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course19 ',' Michigan State University ',' Cameras, 
+    Exposure, 
+    and Photography ',' https://www.coursera.org/learn/exposure-photography ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course15 ',' Berklee College of Music ',' Introduction to Guitar ',' https://www.coursera.org/learn/guitar ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course60 ',' Stanford University ',' Health Across the Gender Spectrum ',' https://www.coursera.org/learn/health-gender-spectrum ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course21 ',' Berklee College of Music ',' Songwriting : Writing the Lyrics ',' https://www.coursera.org/learn/songwriting-lyrics ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course34 ',' Wesleyan University ',' Creative Writing : The Craft of Character ',' https://www.coursera.org/learn/craft-of-character ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course81 ',' Duke University, 
+    Emory University, 
+    The University of North Carolina at Chapel Hill ',' Copyright for Multimedia ',' https://www.coursera.org/learn/copyright-for-multimedia ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course105 ',' The Museum of Modern Art ',' Morden Art ',' https://www.coursera.org/learn/sheying ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course6 ',' California Institute of the Arts ',' Game Design : Art 
+    and Concepts ',' https://www.coursera.org/specializations/game-design ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course130 ',' Udemy ',' Improve your figure drawing ',' https://www.udemy.com/how-to-improve-your-figure-drawing-step-by-step/');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course131 ',' Udemy ',' The Secrets to Drawing ',' https://www.udemy.com/the-secrets-to-drawing/');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course132 ',' Udemy ',' The Colored Pencil Drawing Course ',' https://www.udemy.com/the-colored-pencil-course/');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course133 ',' Udemy ',' THE ART & SCIENCE OF DRAWING/BASIC SKILLS ',' https://www.udemy.com/the-art-
+    and-science-of-drawing/');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course134 ',' Udemy ',' How to Improve Your Creature Design Drawings-Step by Step ',' https://www.udemy.com/how-to-improve-your-creature-design-drawings-step-by-step/');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course135 ',' Udemy ',' Painting Course : Watercolor Painting, 
+    Art Therapy & Drawing ',' https://www.udemy.com/painting-course-watercolor-painting-art-therapy-drawing/');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course136 ',' Udemy ',' Digital Painting in Photoshop : Create Amazing Concept Art ',' https://www.udemy.com/digital-painting-in-photoshop-create-amazing-concept-art/');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course137 ',' Udemy ',' Shading Masters : The Ultimate Drawing Course for Artists ',' https://www.udemy.com/shading-masters-the-ultimate-shading-course-for-artists/');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course138 ',' California Institute of the Arts ',' Introduction to Programming for Musicians 
+    and Digital Artists ',' https://www.class-central.com/mooc/3749/kadenze-introduction-to-programming-for-musicians-
+    and-digital-artists ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course139 ',' University of Rochester ',' The Music of the Beatles ',' https://www.class-central.com/mooc/1135/coursera-the-music-of-the-beatles ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course140 ',' Berklee College of Music ',' Introduction to Guitar ',' https://www.class-central.com/mooc/522/coursera-introduction-to-guitar ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course141 ',' Cornish College of the Arts ',' Introduction to Graphic Illustration ',' https://www.class-central.com/mooc/3773/kadenze-introduction-to-graphic-illustration ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course142 ',' National Film 
+    and Television School ',' Explore Filmmaking : 
+    from 
+      Script to Screen ',' https://www.class-central.com/mooc/3001/futurelearn-explore-filmmaking-
+    from 
+     -script-to-screen ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course143 ',' Pacific Northwest College of Art ',' Designing for Mixed Reality ',' https://www.class-central.com/mooc/7608/kadenze-designing-for-mixed-reality ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course144 ',' Arizona State University ',' Piano II : Focus on Reading ',' https://www.class-central.com/mooc/7612/kadenze-piano-ii-focus-on-reading ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course145 ',' University of Rochester ',' Fundamentals of Audio 
+      and Music Engineering : Part 1 Musical Sound & Electronics ',' https://www.class-central.com/mooc/686/coursera-fundamentals-of-audio-
+      and-music-engineering-part-1-musical-sound-electronics ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course146 ',' University of Florida ',' Musics Big Bang: The Genesis of Rock and Roll', 
+      'https://www.class-central.com/mooc/1136/coursera-music-s-big-bang-the-genesis-of-rock-n-roll'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course147', 'School of Visual Arts', 
+    'Fundamentals of Video Production', 
+    'https://www.class-central.com/mooc/7620/kadenze-fundamentals-of-video-production'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course148', 'University of Colorado Boulder', 
+    'Graphic Design', 'https://www.class-central.com/mooc/6597/coursera-graphic-design'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course149', 'Ludwig-Maximilians-Universität München', 
+    'Theatre and Globalization', 'https://www.class-central.com/mooc/2918/coursera-theatre-and-globalization'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course150', 'University of Leeds', 
+    'Physical Theatre: Exploring the Slap', 
+    'https://www.class-central.com/mooc/6096/futurelearn-physical-theatre-exploring-the-slap'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course151', 'Indian Institute of Technology Kanpur', 
+    'Folk and Minor Art in India', 
+    'https://www.class-central.com/mooc/6705/nptel-folk-and-minor-art-in-india'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course152', 'Indian Institute of Technology Roorkee', 
+    'Visual Communication Design for Digital Media', 
+    'https://www.class-central.com/mooc/10103/nptel-visual-communication-design-for-digital-media'
+  );

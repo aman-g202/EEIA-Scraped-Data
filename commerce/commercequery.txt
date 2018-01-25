@@ -1,0 +1,538 @@
+/* CREATE TABLE */
+CREATE TABLE IF NOT EXISTS TABLE_NAME(
+  cnum VARCHAR(100), 
+  coursename VARCHAR(100), 
+  university VARCHAR(100), 
+  url VARCHAR(100)
+);
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course139', 'Moving to the Cloud', 
+    'The University of Melbourne', 
+    'https://www.coursera.org/learn/cloud-computing-adoption'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course112', 'Introduction to Social Media Analytics', 
+    'Emory University', 'https://www.coursera.org/learn/social-media-analytics-introduction'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course138', 'Executive Data Science Capstone', 
+    'Johns Hopkins University', 'https://www.coursera.org/learn/executive-data-science-capstone'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course62', 'Managing Social and Human Capital', 
+    'University of Pennsylvania', 'https://www.coursera.org/learn/wharton-social-human-capital'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course70', 'Building Your Leadership Skills', 
+    'HEC Paris', 'https://www.coursera.org/learn/leadership-skills'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course9', 'Organizational Leadership', 
+    'Northwestern University', 'https://www.coursera.org/specializations/organizational-leadership'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course91', 'Leadership in 21st Century Organizations', 
+    'Copenhagen Business School', 'https://www.coursera.org/learn/leadership-21st-century'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course104', 'Strategic Career Self-Management', 
+    'The State University of New York', 
+    'https://www.coursera.org/learn/strategic-career-self-management'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course12', 'Six Sigma Yellow Belt', 
+    'University System of Georgia', 
+    'https://www.coursera.org/specializations/six-sigma-fundamentals'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course106', 'New Models of Business in Society', 
+    'University of Virginia', 'https://www.coursera.org/learn/uva-darden-business-society'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course23', 'Conflict Management', 
+    'University of California, Irvine', 
+    'https://www.coursera.org/specializations/conflict-management'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course58', 'Strategic Management', 
+    'Copenhagen Business School', 'https://www.coursera.org/learn/strategic-management'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course146', 'Leadership Through Design Innovation', 
+    'Northwestern University', 'https://www.coursera.org/learn/leadership-design-innovation'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course191', 'Fundamentos del Emprendimiento: Pensamiento y Accin', 
+    'University of California, Irvine', 
+    'https://www.coursera.org/learn/fundamentos-del-emprendimiento'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course3', 'Construction Management', 
+    'Columbia University', 'https://www.coursera.org/specializations/construction-management'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course87', 'Managing as a Coach', 
+    'University of California, Davis', 
+    'https://www.coursera.org/learn/managing-as-a-coach'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course147', 'Math behind Moneyball', 
+    'University of Houston System', 
+    'https://www.coursera.org/learn/mathematics-sport'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course107', 'Analysing Complexity', 
+    'Macquarie University', 'https://www.coursera.org/learn/analysing-complexity'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course210', 'Smart Cities  Management of Smart Urban Infrastructures', 
+    'cole Polytechnique Fdrale de Lausanne', 
+    'https://www.coursera.org/learn/smart-cities'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course17', 'Hotel Management: Distribution, Revenue and Demand Management', 
+    'ESSEC Business School', 'https://www.coursera.org/specializations/hotel-management'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course133', 'Career Brand Development and Self-Coaching', 
+    'The State University of New York', 
+    'https://www.coursera.org/learn/career-brand-development-self-coaching'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course34', 'A Crash Course in Data Science', 
+    'Johns Hopkins University', 'https://www.coursera.org/learn/data-science-course'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course117', 'Leadership and Emotional Intelligence ', 
+    'Indian School of Business', 'https://www.coursera.org/learn/emotional-intelligence-in-leadership'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course182', 'Power Onboarding', 
+    'Northwestern University', 'https://www.coursera.org/learn/power-onboarding'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course67', 'Digital Business Models', 
+    'Lund University', 'https://www.coursera.org/learn/digital-business-models'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course85', 'Social Impact Strategy: Tools for Entrepreneurs and Innovators', 
+    'University of Pennsylvania', 'https://www.coursera.org/learn/social-impact'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course132', 'Innovating with the Business Model Canvas', 
+    'University of Virginia', 'https://www.coursera.org/learn/uva-darden-innovation-business-model-canvas'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course44', 'An Introduction to Consumer Neuroscience & Neuromarketing ', 
+    'Copenhagen Business School', 'https://www.coursera.org/learn/neuromarketing'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course115', 'Introduction to the Nonprofit Sector, Nonprofit Organizations, Nonprofit Leadership and Governance', 
+    'The State University of New York, Luther College at the University of Regina', 
+    'https://www.coursera.org/learn/nonprofit-organizations'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course196', 'Human Resources Management Capstone: HR for People Managers', 
+    'University of Minnesota', 'https://www.coursera.org/learn/human-resources-management-capstone'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course98', 'Electric Utilities Fundamentals and Future', 
+    'University of Colorado System', 
+    'https://www.coursera.org/learn/electric-utilities'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course110', 'Engineering Project Management: Scope, Time and Cost Management', 
+    'Rice University', 'https://www.coursera.org/learn/scope-time-management-cost'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, coursename, university, url) 
+VALUES 
+  (
+    'course59', 
+    'The Managers Toolkit : A Practical Guide to Managing People at Work','University of London Birkbeck University of London','https://www.coursera.org/learn/people-management ');
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course109 ',' Unethical Decision Making in Organizations ',' University of Lausanne ',' https://www.coursera.org/learn/unethical-decision-making ');
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course5 ',' Strategic Management 
+    and Innovation ',' Copenhagen Business School ',' https://www.coursera.org/specilizations/strategic-management ');
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course180 ',' Negotiation, 
+    Mediation, 
+    and Conflict Resolution-Capstone Project ',' ESSEC Business School ',' https://www.coursera.org/learn/negotiation-project ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course108 ',' Strategic Business Management-Microeconomics ',' University of California, 
+    Irvine ',' https://www.coursera.org/learn/strategic-business-management-microeconomics ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course113 ',' Forecasting Models for Marketing Decisions ',' Emory University ',' https://www.coursera.org/learn/forecasting-models-marketing-decisions ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course97 ',' Six Sigma 
+    and the Organization (Advanced) ',' University System of Georgia ',' https://www.coursera.org/learn/six-sigma-organization-advanced ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course53 ',' Budgeting 
+    and Scheduling Projects ',' University of California, 
+    Irvine ',' https://www.coursera.org/learn/schedule-projects ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course14 ',' Value Chain Management ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/specilizations/value-chain-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course29 ',' Leadership Development for Engineers ',' Rice University ',' https://www.coursera.org/specilizations/leadership-development-engineers ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course111 ',' Trabaja inteligentemente, 
+    no ms duro : Gestin del tiempo para la productividad personal y profesional ',' University of California, 
+    Irvine ',' https://www.coursera.org/learn/trabaja-inteligentemente ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course81 ',' Fundamentals of Management ',' University of California, 
+    Irvine ',' https://www.coursera.org/learn/fundamentals-of-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course26 ',' Innovation : 
+    From 
+      Creativity to Entrepreneurship ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/specilizations/innovation-creativity-entrepreneurship ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course140 ',' Leading Positive Change through Appreciative Inquiry ',' Case Western Reserve University ',' https://www.coursera.org/learn/appreciative-inquiry ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course40 ',' Project Management : The Basics for Success ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/project-management-basics ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course4 ',' Human Resource Management : HR for People Managers ',' University of Minnesota ',' https://www.coursera.org/specilizations/human-resource-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course202 ',' Culture-Driven Team Building Capstone ',' University of Pennsylvania ',' https://www.coursera.org/learn/team-building-capstone ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course30 ',' Communication Skills for Engineers ',' Rice University ',' https://www.coursera.org/specilizations/leadership-communication-engineers ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course78 ',' The Science of Success : What Researchers Know that You Should Know ',' University of Michigan ',' https://www.coursera.org/learn/success ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course211 ',' CAPSTONE : Your Leadership Challenge ',' HEC Paris ',' https://www.coursera.org/learn/leadership-challenge ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course54 ',' Business Writing ',' University of Colorado Boulder ',' https://www.coursera.org/learn/writing-for-business ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course151 ',' Diversity 
+      and inclusion in the workplace ',' ESSEC Business School ',' https://www.coursera.org/learn/diversity-inclusion-workplace ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course19 ',' Negotiation, 
+      Mediation 
+      and Conflict Resolution ',' ESSEC Business School ',' https://www.coursera.org/specilizations/negotiation-mediation-conflict-resolution ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course134 ',' Oral Communication for Engineering Leaders ',' Rice University ',' https://www.coursera.org/learn/oral-communication ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course11 ',' Dynamic Public Speaking ',' University of Washington ',' https://www.coursera.org/specilizations/public-speaking ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course105 ',' Teamwork Skills : Communicating Effectively in Groups ',' University of Colorado Boulder ',' https://www.coursera.org/learn/teamwork-skills-effective-communication ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course52 ',' Management of Fashion 
+      and Luxury Companies ',' Universit Bocconi ',' https://www.coursera.org/learn/mafash ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course72 ',' Design Thinking for the Greater Good : Innovation in the Social Sector ',' University of Virginia ',' https://www.coursera.org/learn/uva-darden-design-thinking-social-sector ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course49 ',' People Analytics ',' University of Pennsylvania ',' https://www.coursera.org/learn/wharton-people-analytics ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course6 ',' Strategic Leadership 
+      and Management ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/specilizations/strategic-leadership ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course123 ',' Gestin de proyectos : las bases del xito ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/gestion-de-proyectos ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course74 ',' Entrepreneurship Strategy : 
+    From 
+      Ideation to Exit ',' HEC Paris ',' https://www.coursera.org/learn/entrepreneurship-strategy ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course186 ',' Optimizing Diversity on Teams ',' University of Pennsylvania ',' https://www.coursera.org/learn/diverse-teams ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course156 ',' Six Sigma Advanced Analyze Phase ',' University System of Georgia ',' https://www.coursera.org/learn/six-sigma-analyze-advanced ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course150 ',' Achieving Your Optimal Performance ',' University of California, 
+      San Diego ',' https://www.coursera.org/learn/achieving-your-optimal-performance ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course24 ',' Improving Leadership & Governance in Nonprofit Organizations ',' The State University of New York, 
+      Luther College at the University of Regina ',' https://www.coursera.org/specilizations/nonprofit ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course185 ',' Subsistence Marketplaces ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/subsistence-marketplaces ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course204 ',' Organizational Leadership Capstone ',' Northwestern University ',' https://www.coursera.org/learn/leadership-capstone ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course208 ',' Value Chain Management Capstone ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/value-chain-capstone ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course145 ',' Management Skills for International Business ',' University of London ',' https://www.coursera.org/learn/management-skills-international-business ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course42 ',' Ignite Your Everyday Creativity ',' The State University of New York ',' https://www.coursera.org/learn/ignite-creativity ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course170 ',' First Steps in Making the Business Case for Sustainability ',' University of Colorado System ',' https://www.coursera.org/learn/sustainable-business ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course200 ',' Designing 
+      and Implementing Your Coaching Strategy ',' University of California, 
+      Davis ',' https://www.coursera.org/learn/design-coaching-strategy ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course25 ',' Solving Complex Problems ',' Macquarie University ',' https://www.coursera.org/specilizations/solving-complex-problems ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course143 ',' Writing Skills for Engineering Leaders ',' Rice University ',' https://www.coursera.org/learn/engineering-writing ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course171 ',' Leadership 
+      and Influence ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/leadership-influence ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course103 ',' Creativity 
+      And Entrepreneurship ',' Berklee College of Music ',' https://www.coursera.org/learn/creativity-entrepreneurship ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course174 ',' Leadership Toolkit for Managers ',' Vanderbilt University ',' https://www.coursera.org/learn/leadership ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course162 ',' How to finance your venture ? ',' cole Polytechnique ',' https://www.coursera.org/learn/finance-venture ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course203 ',' Leading People 
+      and Teams Capstone ',' University of Michigan ',' https://www.coursera.org/learn/leading-teams-project ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course32 ',' Coaching Skills for Managers ',' University of California, 
+      Davis ',' https://www.coursera.org/specilizations/coaching-skills-manager ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course205 ',' Capstone-Managing Board Change for Higher Levels of Leadership 
+      and Governance Effectiveness ',' The State University of New York, 
+      Luther College at the University of Regina ',' https://www.coursera.org/learn/nonprofit-gov-capstone ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course137 ',' Women in Leadership : Inspiring Positive Change ',' Case Western Reserve University ',' https://www.coursera.org/learn/women-in-leadership ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course152 ',' Building High-Performing Teams ',' University of Pennsylvania ',' https://www.coursera.org/learn/high-performing-teams ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course82 ',' Influence ',' University of Pennsylvania ',' https://www.coursera.org/learn/wharton-influence ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course175 ',' Creating a Team Culture of Continuous Learning ',' University of Pennsylvania ',' https://www.coursera.org/learn/continuous-learning-culture ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course28 ',' Corporate Entrepreneurship : Innovating within Corporations ',' University of Maryland, 
+      College Park ',' https://www.coursera.org/specilizations/corporate-entrepreneurship ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course2 ',' Leading People 
+      and Teams ',' University of Michigan ',' https://www.coursera.org/specilizations/leading-teams ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course20 ',' Business Strategies for A Better World ',' University of Pennsylvania ',' https://www.coursera.org/specilizations/wharton-global-business-strategy ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course63 ',' Building a Data Science Team ',' Johns Hopkins University ',' https://www.coursera.org/learn/build-data-science-team ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course80 ',' Construction Cost Estimating 
+      and Cost Control ',' Columbia University ',' https://www.coursera.org/learn/construction-cost-estimating ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course173 ',' Personal Leadership Development Planning 
+      and Leading High Performing Teams ',' Rice University ',' https://www.coursera.org/learn/leadership-development-planning ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course116 ',' Market 
+      and Competition in Pricing Strategy ',' University of Virginia, 
+      BCG ',' https://www.coursera.org/learn/uva-darden-bcg-pricing-strategy-market-competition ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course114 ',' Setting Expectations & Assessing Performance Issues ',' University of California, 
+      Davis ',' https://www.coursera.org/learn/coaching-expectations-performance ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course73 ',' Accounting : Principles of Financial Accounting ',' IESE Business School ',' https://www.coursera.org/learn/financial-accounting ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course27 ',' Become a Sustainable Business Change Agent ',' University of Colorado System ',' https://www.coursera.org/specilizations/sustainable-business-change-agent ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course193 ',' Aspectos fundamentales de la gerencia ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/fundamentos-de-gestion ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course46 ',' Organizational Analysis ',' Stanford University ',' https://www.coursera.org/learn/organizational-analysis ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course160 ',' Relationship Management ',' Rice University ',' https://www.coursera.org/learn/relationship-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course43 ',' Psychology at Work ',' University of Western Australia ',' https://www.coursera.org/learn/work-psychology ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course153 ',' The Power of Team Culture ',' University of Pennsylvania ',' https://www.coursera.org/learn/team-culture ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course148 ',' International 
+      and Cross-Cultural Negotiation ',' ESSEC Business School ',' https://www.coursera.org/learn/international-negotiation ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course184 ',' Sustainable Innovation for Subsistence Marketplaces ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/subsistence-marketplaces-1 ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course101 ',' Management of Urban Infrastructures part 1 ',' cole Polytechnique Fdrale de Lausanne ',' https://www.coursera.org/learn/managing-urban-infrastructures-1 ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course207 ',' Be a Leader, 
+      Develop a Leader ',' Case Western Reserve University ',' https://www.coursera.org/learn/be-a-leader ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course149 ',' Six Sigma Advanced Define 
+      and Measure Phases ',' University System of Georgia ',' https://www.coursera.org/learn/six-sigma-define-measure-advanced ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course61 ',' Food & Beverage Management ',' Universit Bocconi ',' https://www.coursera.org/learn/food-beverage-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course65 ',' Personality Types at Work ',' University of Florida ',' https://www.coursera.org/learn/personality-types-at-work ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course179 ',' Cmo resolver problemas y tomar decisiones con eficacia ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/resolucion-decisiones ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course130 ',' Coaching Conversations ',' University of California, 
+      Davis ',' https://www.coursera.org/learn/coaching-conversations ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course181 ',' Surviving Disruptive Technologies (On Demand) ',' University of Maryland, 
+      College Park ',' https://www.coursera.org/learn/surviving-disruptive-technologies ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course39 ',' Foundations of Everyday Leadership ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/everyday-leadership-foundation ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course68 ',' FinTech 
+      and the Transformation in Financial Services ',' Copenhagen Business School ',' https://www.coursera.org/learn/fintech-transformation-financial-services ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course206 ',' Marketing Analytics Capstone Project ',' Emory University ',' https://www.coursera.org/learn/marketing-analytics-project ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course21 ',' Business Essentials for Managers ',' Vanderbilt University ',' https://www.coursera.org/specilizations/management-fundamentals ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course88 ',' Managing the Company of the Future ',' University of London, 
+      London Business School ',' https://www.coursera.org/learn/company-future-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course57 ',' Inspiring Leadership through Emotional Intelligence ',' Case Western Reserve University ',' https://www.coursera.org/learn/emotional-intelligence-leadership ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course35 ',' Initiating 
+      and Planning Projects ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/project-planning ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course64 ',' Leading the Life You Want ',' University of Pennsylvania ',' https://www.coursera.org/learn/leading-the-life-you-want ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course10 ',' Digital Transformation in Financial Services ',' Copenhagen Business School ',' https://www.coursera.org/specilizations/digital-transformation-financial-services ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course190 ',' More on Change 
+      and Sustainability ',' University of Colorado System ',' https://www.coursera.org/learn/business-case-sustainability ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course187 ',' Solving Complex Problems Capstone ',' Macquarie University ',' https://www.coursera.org/learn/solving-complex-problems ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course100 ',' Designing the Organization : 
+    From 
+      Strategy to Organizational Structure ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/designing-organization ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course142 ',' Mediation 
+      and Conflict Resolution ',' ESSEC Business School ',' https://www.coursera.org/learn/conflict-resolution-mediation ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course120 ',' Managing the Organization : 
+    From 
+      Organizational Design to Execution ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/managing-organization ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course201 ',' International Business Capstone ',' University of London ',' https://www.coursera.org/learn/international-business-capstone ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course56 ',' Managing Project Risks 
+      and Changes ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/project-risk-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course164 ',' Survey analysis to Gain Marketing Insights ',' Emory University ',' https://www.coursera.org/learn/survey-analysis-marketing-insights ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course92 ',' Conversations That Inspire : Coaching Learning, 
+      Leadership 
+      and Change ',' Case Western Reserve University ',' https://www.coursera.org/learn/leadership-coaching ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course161 ',' HI-FIVE : Health Informatics For Innovation, 
+      Value & Enrichment (Administrative/IT Perspective) ',' Columbia University ',' https://www.coursera.org/learn/hi-five-admin-it ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course172 ',' Networking 
+      and Volunteerism for Career Success ',' University of California, 
+      San Diego ',' https://www.coursera.org/learn/networking-volunteerism-career-success ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course69 ',' Be Persuasive : Write a Convincing Position Paper 
+      or Policy Advice (Project-Centered Course) ',' Universiteit Leiden ',' https://www.coursera.org/learn/persuasive-writing ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course157 ',' Six Sigma Advanced Improve 
+      and Control Phases ',' University System of Georgia ',' https://www.coursera.org/learn/six-sigma-improve-control-advanced ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course84 ',' Managing Talent ',' University of Michigan ',' https://www.coursera.org/learn/managing-talent ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course95 ',' The hidden value Lean in manufacturing 
+      and services ',' cole des Ponts ParisTech, 
+      BCG ',' https://www.coursera.org/learn/lean-manufacturing-services ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course102 ',' Arts 
+      and Heritage Management ',' Universit Bocconi ',' https://www.coursera.org/learn/arts-heritage ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course155 ',' Critical Perspectives on Management ',' IE Business School ',' https://www.coursera.org/learn/critical-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course93 ',' Negotiation Fundamentals ',' ESSEC Business School ',' https://www.coursera.org/learn/negotiation-fundamentals ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course195 ',' Crafting Strategies for Innovation Initiatives for Corporate Entrepreneurs ',' University of Maryland, 
+      College Park ',' https://www.coursera.org/learn/corporate-entrepreneurs-innovation-strategy ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course124 ',' Sustainable Vikings : Sustainability & Corporate Social Responsibility in Scandinavia ',' Copenhagen Business School ',' https://www.coursera.org/learn/sustainability-csr-scandinavia ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course197 ',' The Factors that Influence the Effectiveness of Boards 
+      and the Governance Process ',' The State University of New York, 
+      Luther College at the University of Regina ',' https://www.coursera.org/learn/nonprofit-gov-3 ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course22 ',' Culture-Driven Team Building ',' University of Pennsylvania ',' https://www.coursera.org/specilizations/team-building ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course121 ',' Intercultural Management ',' ESCP Europe ',' https://www.coursera.org/learn/intercultural ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course60 ',' Managing Data Analysis ',' Johns Hopkins University ',' https://www.coursera.org/learn/managing-data-analysis ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course33 ',' Applied Machine Learning in Python ',' University of Michigan ',' https://www.coursera.org/learn/python-machine-learning ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course16 ',' Foundations of Management ',' IESE Business School ',' https://www.coursera.org/specilizations/foundations-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course154 ',' The Role of Global Capital Markets ',' The University of Melbourne ',' https://www.coursera.org/learn/capital-markets ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course13 ',' Engineering Project Management ',' Rice University ',' https://www.coursera.org/specilizations/engineering-project-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course15 ',' Business Technology Management ',' Indian School of Business ',' https://www.coursera.org/specilizations/business-technology-managment ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course192 ',' The Roles 
+      and Responsibilities of Nonprofit Boards of Directors within the Governance Process ',' The State University of New York, 
+      Luther College at the University of Regina ',' https://www.coursera.org/learn/nonprofit-gov-2 ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course71 ',' Data Science in Real Life ',' Johns Hopkins University ',' https://www.coursera.org/learn/real-life-data-science ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course169 ',' Finanzas para profesionales no financieros ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/finanzas-no-expertos ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course165 ',' Creating Innovation ',' Macquarie University ',' https://www.coursera.org/learn/creating-innovation ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course50 ',' Construction Project Management ',' Columbia University ',' https://www.coursera.org/learn/construction-project-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course131 ',' Managerial Accounting Fundamentals ',' University of Virginia ',' https://www.coursera.org/learn/uva-darden-managerial-accounting ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course194 ',' Master Class for Corporate Entrepreneurs ',' University of Maryland, 
+      College Park ',' https://www.coursera.org/learn/corporate-entrepreneurship-project ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course129 ',' Business Analytics 
+      and Digital Media ',' Indian School of Business ',' https://www.coursera.org/learn/business-analytics ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course189 ',' Sustainable Business : Big Issues, 
+      Big Changes ',' University of Colorado System ',' https://www.coursera.org/learn/sustainable-business-changes ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course163 ',' Leadership Through Marketing ',' Northwestern University ',' https://www.coursera.org/learn/leadership-marketing ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course141 ',' Ethical Leadership Through Giving Voice to Values ',' University of Virginia ',' https://www.coursera.org/learn/uva-darden-giving-voice-to-values ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course90 ',' Corporate Strategy ',' University of London, 
+      UCL School of Management ',' https://www.coursera.org/learn/corporatestrategy ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course144 ',' Leadership Through Social Influence ',' Northwestern University ',' https://www.coursera.org/learn/leadership-socialinfluence ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course7 ',' Financial Management ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/specilizations/financial-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course198 ',' Strategic Leadership 
+      and Management Capstone ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/strategic-leadership-capstone ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course188 ',' HI-FIVE : Health Informatics For Innovation, 
+      Value & Enrichment (Social/Peer Perspective) ',' Columbia University ',' https://www.coursera.org/learn/hi-five-social-peer ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course128 ',' Career 911 : Your Future Job in Medicine 
+      and Healthcare ',' Northwestern University ',' https://www.coursera.org/learn/healthcarejobs ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course8 ',' Inspired Leadership ',' Case Western Reserve University ',' https://www.coursera.org/specilizations/inspired-leadership ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course41 ',' Digital Product Management : Modern Fundamentals ',' University of Virginia ',' https://www.coursera.org/learn/uva-darden-digital-product-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course122 ',' Pricing Strategy in Practice ',' University of Virginia, 
+      BCG ',' https://www.coursera.org/learn/uva-darden-bcg-pricing-strategy-practice ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course77 ',' Recruiting, 
+      Hiring, 
+      and Onboarding Employees ',' University of Minnesota ',' https://www.coursera.org/learn/recruiting-hiring-onboarding-employees ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course183 ',' Entrepreneurial Strategic Management ',' University of New Mexico ',' https://www.coursera.org/learn/entrepreneurial-strategic-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course75 ',' Digital Competition in Financial Services ',' Copenhagen Business School ',' https://www.coursera.org/learn/digital-competition-financial-services ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course119 ',' Self Awareness 
+      and the Effective Leader ',' Rice University ',' https://www.coursera.org/learn/self-awareness ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course209 ',' Career Total Fitness Annual Retreat ',' The State University of New York ',' https://www.coursera.org/learn/career-fitness ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course89 ',' Leadership Communication for Maximum Impact : Storytelling ',' Northwestern University ',' https://www.coursera.org/learn/leadership-storytelling ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course45 ',' Preparing to Manage Human Resources ',' University of Minnesota ',' https://www.coursera.org/learn/managing-human-resources ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course18 ',' Inspirational Leadership : Leading with Sense ',' HEC Paris ',' https://www.coursera.org/specilizations/inspirational-leadership ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course127 ',' Engineering Project Management : Risk, 
+      Quality, 
+      Teams, 
+      and Procurement ',' Rice University ',' https://www.coursera.org/learn/project-risk-quality-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course178 ',' El arte de negociar ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/arte-de-negociacion ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course51 ',' Introduction to Operations Management ',' University of Pennsylvania ',' https://www.coursera.org/learn/wharton-operations ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course1 ',' Introduction to Project Management Principles 
+      and Practices ',' University of California, 
+      Irvine ',' https://www.coursera.org/specilizations/project-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course55 ',' Job Success : Get Hired 
+      or Promoted in 3 Steps ',' The State University of New York ',' https://www.coursera.org/learn/get-hired ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course125 ',' Coaching Practices ',' University of California, 
+      Davis ',' https://www.coursera.org/learn/coaching-practices ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course36 ',' Fundamentals of Project Planning 
+      and Management ',' University of Virginia ',' https://www.coursera.org/learn/uva-darden-project-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course199 ',' Capstone : Creating A Sustainability Proposal ',' University of Colorado System ',' https://www.coursera.org/learn/sustainability-proposal ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course167 ',' Managing Uncertainty in Marketing Analytics ',' Emory University ',' https://www.coursera.org/learn/uncertainty-marketing-decisions ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course136 ',' HI-FIVE : Health Informatics For Innovation, 
+      Value & Enrichment (Clinical Perspective) ',' Columbia University ',' https://www.coursera.org/learn/hi-five-clinical ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course47 ',' Claves para Gestionar Personas ',' IESE Business School ',' https://www.coursera.org/learn/gestionar-personas ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course176 ',' La comunicacin laboral en el siglo XXI ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/comunicacion-trabajo ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course177 ',' Interpersonal Communication for Engineering Leaders ',' Rice University ',' https://www.coursera.org/learn/interpersonal-communication ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course48 ',' How to Finance 
+      and Grow Your Startup Without VC ',' University of London, 
+      London Business School ',' https://www.coursera.org/learn/startup-financing-without-vc ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course158 ',' Evaluating Problems ',' Macquarie University ',' https://www.coursera.org/learn/evaluating-problems ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course66 ',' International Leadership 
+      and Organizational Behavior ',' Universit Bocconi ',' https://www.coursera.org/learn/organizational-behavior ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course76 ',' High Performance Collaboration : Leadership, 
+      Teamwork, 
+      and Negotiation ',' Northwestern University ',' https://www.coursera.org/learn/leadership-collaboration ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course31 ',' Achieving Personal 
+      and Professional Success ',' University of Pennsylvania ',' https://www.coursera.org/specilizations/wharton-success ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course118 ',' On Strategy : What Managers Can Learn 
+    from 
+      Philosophy-PART 1 ',' CentraleSupec ',' https://www.coursera.org/learn/management-philosophy ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course96 ',' Applications of Everyday Leadership ',' University of Illinois at Urbana-Champaign ',' https://www.coursera.org/learn/everyday-leadership-application ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course37 ',' Creative Problem Solving ',' University of Minnesota ',' https://www.coursera.org/learn/creative-problem-solving ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course135 ',' Becoming a Sports Agent ',' Case Western Reserve University ',' https://www.coursera.org/learn/sports-agent ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course83 ',' Engineering Project Management : Initiating 
+      and Planning ',' Rice University ',' https://www.coursera.org/learn/initiating-planning ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course94 ',' Organizational Behavior : How to Manage People ',' IESE Business School ',' https://www.coursera.org/learn/managing-people-iese ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course168 ',' Leading Organizations ',' HEC Paris ',' https://www.coursera.org/learn/leading-organizations ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course126 ',' Converting Challenges into Opportunities ',' University of California, 
+      San Diego ',' https://www.coursera.org/learn/converting-challenges-into-opportunities ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course159 ',' Giving Sense to Your Leadership Experience ',' HEC Paris ',' https://www.coursera.org/learn/leading-sense ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course99 ',' Strategic Business Management-Macroeconomics ',' University of California, 
+      Irvine ',' https://www.coursera.org/learn/strategic-business-management-macroeconomics ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course38 ',' Inspiring 
+      and Motivating Individuals ',' University of Michigan ',' https://www.coursera.org/learn/motivate-people-teams ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course166 ',' Managing Responsibly : Practicing Sustainability, 
+      Responsibility 
+      and Ethics ',' University of Manchester ',' https://www.coursera.org/learn/responsible-management ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course79 ',' Leading Teams ',' University of Michigan ',' https://www.coursera.org/learn/leading-teams ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,coursename,university,url) VALUES( ' course86 ',' Construction Scheduling ',' Columbia University ',' https://www.coursera.org/learn/construction-scheduling ');

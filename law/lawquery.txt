@@ -1,0 +1,315 @@
+/* CREATE TABLE */
+CREATE TABLE IF NOT EXISTS TABLE_NAME(
+  cnum VARCHAR(100), 
+  university VARCHAR(100), 
+  coursename VARCHAR(100), 
+  url VARCHAR(100)
+);
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course1', 'University of Pennsylvania', 
+    'An Introduction to American Law', 
+    'https://www.coursera.org/learn/american-law'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course30', 
+    'University of Geneva', 
+    'Droit International de l Eau Douce ',' https://www.coursera.org/learn/droit-international-eau-douce ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course12 ',' The University of North Carolina at Chapel Hill ',' Introduction to Environmental Law 
+    and Policy ',' https://www.coursera.org/learn/environmental-law ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course13 ',' University of Michigan ',' Making Successful Decisions through the Strategy, 
+    Law & Ethics Model ',' https://www.coursera.org/learn/strategy-law-ethics ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course10 ',' The University of Chicago ',' Internet Giants : The Law 
+    and Economics of Media Platforms ',' https://www.coursera.org/learn/internetgiants ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course21 ',' University of California, 
+    Irvine ',' Chemerinsky on Constitutional Law-The Structure of Government ',' https://www.coursera.org/learn/chemerinsky-on-constitutional-law-structure-of-government ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course23 ',' Yale University ',' Americas Unwritten Constitution', 
+    'https://www.coursera.org/learn/unwritten-constitution'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course11', 'Universiteit Leiden', 
+    'International Law In Action: Investigating and Prosecuting International Crimes', 
+    'https://www.coursera.org/learn/international-law-in-action-2'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course15', 'University of Pennsylvania', 
+    'Introduction to Key Constitutional Concepts and Supreme Court Cases', 
+    'https://www.coursera.org/learn/constitution'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course24', 'Tel Aviv University', 
+    'Economic Growth and Distributive Justice Part I -The Role of the State', 
+    'https://www.coursera.org/learn/economic-growth-part-1'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course19', 'Wesleyan University', 
+    'Property and Liability: An Introduction to Law and Economics', 
+    'https://www.coursera.org/learn/property-law-and-economics'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course5', 'University of London', 
+    'English Common Law: Structure and Principles', 
+    'https://www.coursera.org/learn/common-law'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course20', 'Universiteit Leiden', 
+    'EU policy and implementation: making Europe work! ', 
+    'https://www.coursera.org/learn/eu-making-europe-work'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course16', 'Lund University', 'European Business Law: Understanding the Fundamentals', 
+    'https://www.coursera.org/learn/european-law-fundamentals'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course2', 'Yale University', 'A Law Students Toolkit ',' https://www.coursera.org/learn/law-student ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course22 ',' Lund University ',' European Business Law : Competing in Europe ',' https://www.coursera.org/learn/eu-competition-law ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course29 ',' Saint Petersburg State University ',' Constitutional Reforms in Russia ',' https://www.coursera.org/learn/constitutional-reforms-in-russia ');
+/* INSERT QUERY */INSERT INTO TABLE_NAME(cnum,university,coursename,url) VALUES( ' course6 ',' University of Geneva ',' Childrens Human Rights-An Interdisciplinary Introduction', 
+    'https://www.coursera.org/learn/childrens-rights'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course14', 'University of Copenhagen', 
+    'After the Arab Spring Democratic Aspirations and State Failure', 
+    'https://www.coursera.org/learn/after-the-arab-spring'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course25', 'Peking University', 
+    'Academic Writing and Research', 
+    'https://www.coursera.org/learn/lunwen-xiezuo-chujie'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course32', 'Tel Aviv University', 
+    'Economic Growth and Distributive Justice Part II-Maximize Social Wellbeing', 
+    'https://www.coursera.org/learn/economic-growth-part-2'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course8', 'Utrecht University', 
+    'Human Rights for Open Societies', 
+    'https://www.coursera.org/learn/humanrights'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course3', 'Case Western Reserve University', 
+    'Introduction to International Criminal Law', 
+    'https://www.coursera.org/learn/international-criminal-law'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course31', 'University of Geneva', 
+    'International Water Law', 'https://www.coursera.org/learn/international-water-law'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course26', 'Case Western Reserve University', 
+    'Becoming a Sports Agent', 'https://www.coursera.org/learn/sports-agent'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course7', 'Universiteit Leiden', 
+    'International Law in Action: A Guide to the International Courts and Tribunals in The Hague', 
+    'https://www.coursera.org/learn/international-law-in-action'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course17', 'University of Copenhagen', 
+    'Constitutional Struggles in the Muslim World', 
+    'https://www.coursera.org/learn/muslim-world'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course28', 'National Research University Higher School of Economics', 
+    'Russian Trademark Law in Global Perspective', 
+    'https://www.coursera.org/learn/russian-trademark-law'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course4', 'Universiteit Leiden', 
+    'International Law in Action: the Arbitration of International Disputes', 
+    'https://www.coursera.org/learn/arbitration'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course18', 'Lund University', 'European Business Law: Doing Business in Europe', 
+    'https://www.coursera.org/learn/eu-law-doing-business'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course27', 'University of California, Irvine', 
+    'Chemerinsky on Constitutional Law Individual Rights and Liberties', 
+    'https://www.coursera.org/learn/chemerinsky-individual-rights'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course9', 'Universiteit Leiden', 
+    'Rethinking International Tax Law', 
+    'https://www.coursera.org/learn/international-taxation'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course37', 'The University of Sheffield', 
+    'Forensic Facial Reconstruction', 
+    'https://www.futurelearn.com/courses/forensic-facial-reconstruction?lr=4'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course43', 'Monash University', 
+    'Law for Non-Lawyers', 'https://www.futurelearn.com/courses/law-for-non-lawyers?lr=10'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course46', 'University of York', 
+    'From Crime to Punishment', 'https://www.futurelearn.com/courses/crime-to-punishment?lr=13'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course41', 'Law Society of Scotland', 
+    'Maritime Law: an Introduction to Shipping Transactions', 
+    'https://www.futurelearn.com/courses/maritime-law?lr=8'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course34', 'University of Groningen', 
+    'Understanding the General Data Protection Regulation', 
+    'https://www.futurelearn.com/courses/general-data-protection-regulation?lr=1'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course33', 'Kogod School of Business at American University', 
+    'Business Analytics: The Data Explosion', 
+    'https://www.futurelearn.com/courses/data-explosion?lr=0'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course40', 'The Graduate Institute of International and Development Studies', 
+    'International Affairs: Global Governance', 
+    'https://www.futurelearn.com/courses/global-governance?lr=7'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course36', 'European University Institute (EUI)', 
+    'Why do People Migrate? Theories', 
+    'https://www.futurelearn.com/courses/migration-theories?lr=3'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course39', 'University of Glasgow', 
+    'Antiquities Trafficking and Art Crime', 
+    'https://www.futurelearn.com/courses/art-crime?lr=6'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course45', 'University of Groningen', 
+    'Inleiding Nederlands recht', 'https://www.futurelearn.com/courses/nederlands-recht?lr=12'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course38', 'European University Institute (EUI)', 
+    'Why Do People Migrate? Facts', 
+    'https://www.futurelearn.com/courses/migration-facts?lr=5'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course44', 'The Open University', 
+    'Forensic Psychology', 'https://www.futurelearn.com/courses/forensic-psychology?lr=11'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course42', 'New York Institute of Finance', 
+    'Mergers and Acquisitions: Structuring the Deal', 
+    'https://www.futurelearn.com/courses/mergers-acquisitions-structuring-deals?lr=9'
+  );
+/* INSERT QUERY */
+INSERT INTO TABLE_NAME(cnum, university, coursename, url) 
+VALUES 
+  (
+    'course35', 'University of California, Berkeley', 
+    'Transparent and Open Social Science Research', 
+    'https://www.futurelearn.com/courses/open-social-science-research?lr=2'
+  );
